@@ -1,36 +1,29 @@
+Currently this is hard-coded to fullscreen 1920 x 1080; I may try to code it for relative resolutions in the future.
+
 You will need:
 
-I. Bluestacks 5 64-bit v 5.2.0.1052 N64 
-   (or greater)
-  https://www.bluestacks.com/download.html
+I. Latest WSABuilds (Run Google Play on Win11 'natively')
+   https://github.com/MustardChef/WSABuilds
 
 II. Autohotkey (For KBM)
    https://www.autohotkey.com/download/
 
-III. Anti Mico (to map Joypad to KBM)
-   https://github.com/AntiMicro/antimicro/releases
+III. Anti MicoX (to map Joypad to KBM)
+   https://github.com/AntiMicroX/antimicrox
 
 How to setup.
 
-1. In Bluestacks 5 Change the following settings:
-   Graphics engine Mode > Compabitibility
-   Gamepad > Allow BlueStacks to connect with your gamepad > OFF
+1. Install FFCCRE from PlayStore in WSA, then Launch
 
-2. Install FFCCRE from PlayStore in Bluestacks, then Launch
+2. Launch the AutoHotKey script.
 
-3. Go to Game Controls > Advanced Editor > Import Icon 
-  Browse to and select the file 'com.square_enix.android_googleplay.FFCCREww.cfg'
-  Click Import
-
-4. Launch the AutoHotKey script.
-
-5. If you are only using KMB, you are done, if you want Joypad continue on.
+3. If you are only using KMB, you are done, if you want Joypad continue on.
 
 6. Connect your Joypad
 
-7. Launch AntiMicro
+7. Launch AntiMicroX
 
-8. Load 'antimicro.gamecontroller.amgp'
+8. Load 'FFCCRE.gamecontroller.amgp' in AntiMicroX
 
 
 CONTROLS
@@ -60,13 +53,13 @@ Open Pause Menu
 Joypad:
 ----
 Left Stick:
-Character movement / caravan movement
+Character movement / caravan movement / navigate Gameplay Menus
 
 Right Stick: 
-Manual Mouse Movement (For menus)
+Manual Mouse Movement (For non-gameplay menus)
 
-Right Trigger:
-Click Mouse (For menus)
+Right Stick Click:
+Left Click Mouse (For non-gameplay menus)
 
 Right Bumper / Left Bumper
 Change Action
@@ -83,6 +76,5 @@ B Button:
 Start:
 Open Pause Menu
 
-Right
-
-     
+D-pad:
+Navigate Gameplay Menu Only
