@@ -1,6 +1,13 @@
+AutoHotKey for Final Fantasy Crystal Chronicals Remaster (Android)
+
+This Auto-hotkey script aims to make FFCC Android version 100% playable with KBM or a Joypad on a PC.
+
+I ended up using AntiMicroX in addition to AutoHotKey as I didn't like the limitations with AutoHotkey mapping an analog stick to WADS.
+
 Currently this is hard-coded to fullscreen 1920 x 1080; I may try to code it for relative resolutions in the future.
 
 You will need:
+===================================================================
 
 I. Latest WSABuilds (Run Google Play on Win11 'natively')
    https://github.com/MustardChef/WSABuilds
@@ -12,18 +19,21 @@ III. Anti MicoX (to map Joypad to KBM)
    https://github.com/AntiMicroX/antimicrox
 
 How to setup.
+===================================================================
 
-1. Install FFCCRE from PlayStore in WSA, then Launch
+1. Install FFCCRE from PlayStore in WSA
 
 2. Launch the AutoHotKey script.
 
-3. If you are only using KMB, you are done, if you want Joypad continue on.
+3. If you are only using KMB, skip to 7, if you want Joypad continue on.
 
-6. Connect your Joypad
+4. Connect your Joypad
 
-7. Launch AntiMicroX
+5. Launch AntiMicroX
 
-8. Load 'FFCCRE.gamecontroller.amgp' in AntiMicroX
+6. Load 'FFCCRE.gamecontroller.amgp' in AntiMicroX
+
+7. Launch FFCC in WSA and make it fullscreen with F11.
 
 
 CONTROLS
